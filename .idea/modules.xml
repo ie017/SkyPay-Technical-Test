@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Skypay-Technical-Test.iml" filepath="$PROJECT_DIR$/Skypay-Technical-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Banking-service/Banking-service.iml" filepath="$PROJECT_DIR$/Banking-service/Banking-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Banking-service-poo/Banking-service-poo.iml" filepath="$PROJECT_DIR$/Banking-service-poo/Banking-service-poo.iml" />
     </modules>
   </component>
 </project>
