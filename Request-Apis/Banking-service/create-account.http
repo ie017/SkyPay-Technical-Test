@@ -1,0 +1,11 @@
+POST http://localhost:2828/accounts
+Content-Type: application/json
+
+{
+  "email": "issam@example.com",
+  "firstName": "issam",
+  "lastName": "elorf",
+  "address": "123 Main St",
+  "dateOfBirth": "1999-06-23",
+  "registeredDate": "2024-06-01"
+}
