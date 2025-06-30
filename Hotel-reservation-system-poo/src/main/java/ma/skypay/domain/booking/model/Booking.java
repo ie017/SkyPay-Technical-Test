@@ -7,6 +7,7 @@ import ma.skypay.domain.room.model.Room;
 import ma.skypay.domain.user.model.User;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 
 @Data
@@ -15,6 +16,11 @@ import java.time.LocalDate;
 public class Booking {
     private User user;
     private Room room;
-    private LocalDate checkIn;
-    private LocalDate checkOut;
+    private Date checkIn;
+    private Date checkOut;
+
+    @Override
+    public String toString() {
+        return "[Booking] : [Room=" + room + ", User=" + user + ", From=" + checkIn + ", To=" + checkOut + "]";
+    }
 }
