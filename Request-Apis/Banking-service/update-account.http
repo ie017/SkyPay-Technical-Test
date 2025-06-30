@@ -1,0 +1,11 @@
+PUT http://localhost:2828/accounts/11111111-1111-1111-1111-111111111111
+Content-Type: application/json
+
+{
+  "email": "carol@example.com",
+  "firstName": "Alice",
+  "lastName": "Smith",
+  "address": "123 Main St",
+  "dateOfBirth": "1990-05-01",
+  "registeredDate": "2024-06-01"
+}

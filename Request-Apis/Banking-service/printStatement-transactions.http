@@ -1,0 +1,1 @@
+GET http://localhost:2828/accounts/transactions/printStatement/11111111-1111-1111-1111-111111111111?amount=15000&date=2025-06-29
