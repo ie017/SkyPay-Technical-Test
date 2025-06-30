@@ -11,4 +11,10 @@ import lombok.NoArgsConstructor;
 public class User {
     private int id;
     private int balance;
+
+    public void deductBalance(int amount) { this.balance -= amount; }
+    @Override
+    public String toString() {
+        return "[User] " + id + " [balance=" + balance + "]";
+    }
 }
